@@ -1,0 +1,259 @@
+.container {
+    padding: 100px 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #2D93AD;
+}
+
+@media screen and (max-width: 1024px) {
+.container {
+    padding: 60px 0 100px;
+}
+}
+
+@media screen and (max-width: 320px) {
+.container {
+    padding: 50px 0 90px;
+}
+}
+
+.container h2 {
+    color: #222;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+.container h2 {
+    font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width: 320px) {
+.container h2 {
+    font-size: 2.2rem;
+}
+}
+
+.signin-form {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF709D;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);   
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+.signin-form {
+    width: 50%;
+}
+}
+
+@media screen and (max-width: 425px) {
+.signin-form {
+    width: 72%;
+}
+}
+
+@media screen and (max-width: 320px) {
+.signin-form {
+    width: 80%;
+}
+}
+
+.signin-form-inputs {
+    width: 57%;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #222;
+    margin: 2px 0 0 0;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 425px) {
+.signin-form-inputs {
+    width: 70%;
+    font-size: 1.4rem;
+}
+}
+
+.signin-form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    color: gold;
+}
+
+.signin-form-label {
+    display: inline-block;
+    font-size: 1.12rem;
+    margin: .8rem 0;
+}
+  
+.signin-form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+ 
+.form-input::placeholder {
+    color: #222;
+    font-size: .8rem;
+}
+
+.signin-input-btn {
+    border-radius: 10px;
+    outline: none;
+    margin: 15px 0 0 10px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    height: 40px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 425px) {
+.signin-input-btn {
+    width: 25%;
+    height: 35px;
+    font-weight: 500;
+}
+}
+
+.signin-input-btn:hover {
+    transition: all 0.3s ease-out;
+    background-color: #2D93AD;
+    color: #fff;
+    font-weight: 600;
+    transition: 250ms;
+}
+
+.signin-input-login {
+    font-size: .9rem;
+    margin-top: 20px;
+    color: #222;
+    width: 80%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+.signin-input-login {
+    font-size: .82rem;
+}    
+}
+
+.signin-input-login a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.signin-input-login a:hover {
+    color: #fff;
+    font-weight: 500;
+}
+
+.signin-social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 1.3rem auto;
+    font-weight: 700;
+}
+
+.signin-social-container p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+@media screen and (max-width: 768px) {
+.signin-social-container p {
+    margin-top: 1rem;
+    font-size: .85rem;
+}
+}
+
+.signin-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .8rem;
+}
+
+.signin-icons a {
+    font-size: 1.5rem;
+	border-radius: 10%;
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 5vh;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+@media screen and (max-width: 1024px) {
+.signin-icons a {
+    font-size: 1.5rem;
+    border-radius: 10%;
+    width: 5vw; 
+}    
+}
+
+@media screen and (max-width: 425px) {
+.signin-icons a {
+    font-size: 1.4rem;
+    border-radius: 10%;
+    width: 8vw; 
+}    
+}
+
+@media screen and (max-width: 375px) {
+.signin-icons a {
+    font-size: 1.5rem;
+    border-radius: 10%;
+    width: 9.5vw; 
+}    
+}
+
+.signin-icons a:hover {
+    transition: all 0.3s ease-out;
+    background-color: #2D93AD;
+    color: #fff;
+    transition: 250ms;
+}
+
+.signin-input-forgot {
+    font-size: .9rem;
+    margin-top: 10px;
+    color: #222;
+    cursor: pointer;
+    width: 80%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+.signin-input-forgot {
+        font-size: .82rem;
+}    
+}
+
+.signin-input-forgot:hover {
+    text-decoration: underline;
+    color: #fff;
+}

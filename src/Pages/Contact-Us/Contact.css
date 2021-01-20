@@ -1,0 +1,372 @@
+.contact-container {
+    margin-bottom: 14rem;
+}
+
+.contact-container h3 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #222;
+}
+
+.contact-container p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.form-container {
+    margin: 2rem auto;
+    max-width: 1000px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn--medium{
+    align-items: flex-start;
+}
+  
+.close-btn {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 2rem;
+    z-index: 1;
+    color: #EF709D;
+    cursor: pointer;
+}
+  
+.form-content-left {
+    background: #FAFF81;
+    background: -webkit-linear-gradient(to top, #EF709D, #70E4EF);
+    background: linear-gradient(to top, #EF709D, #70E4EF);
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+  
+.form-img-2 {
+    width: 62%;
+    height: 52%;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    border: 1px solid #FAFF81;
+    transform: translate(-50%, -50%);
+    border-radius: 0 5% 0 5%;
+}
+  
+.form-success {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem;
+    color: #fff;
+    font-style: italic;
+}
+  
+.form-content-right {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+}
+  
+.form {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.form p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.5;
+    width: 85%;
+    margin-bottom: 1rem;
+    color: #F8F1FF;
+}
+  
+.form-inputs {
+    width: 80%;
+    font-size: 1.2rem;
+    color: #EF709D;
+    margin: 2px 0 0 0;
+}
+
+.form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    color: orangered;
+}
+  
+.form-label {
+    display: inline-block;
+    font-size: 1.12rem;
+}
+  
+.form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 34px;
+    width: 100%;
+    border: none;
+}
+  
+.form-input::placeholder {
+    color: #222;
+    font-size: .8rem;
+}
+  
+.form-input-btn {
+    border-radius: 10px;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-weight: 500;
+    height: 35px;    
+}
+  
+.form-input-btn:hover {
+    transition: all 0.3s ease-out;
+    background-color: #EF709D;
+    color: #222;
+    transition: 250ms;
+}
+  
+.form-input-login {
+    font-size: .8rem;
+    margin-top: 10px;
+    color: #F8F1FF;
+    width: 80%;
+    text-align: center;
+}
+  
+.form-input-login a {
+    text-decoration: none;
+    color: #EF709D;
+    font-weight: 600;
+    font-size: 0.82rem;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem auto;
+    font-weight: 700;
+}
+
+.social-container span {
+    margin: 0 4rem 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.social-container a {
+    font-size: 2rem;
+	border-radius: 10%;
+	display: inline-flex;
+	margin:  .5rem 0;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: 6vh;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.facebook {
+    color: #3B5998;
+}
+
+.google {
+    color: #DB4437;
+}
+
+.linkedin {
+    color: #0E76A8;
+}
+
+.twitter {
+    color: #00ACEE;
+}
+
+.social-container a:hover{
+    background-color: #2D93AD;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+.form-container {
+    max-width: 900px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}    
+
+.social-container a {
+    width: 6vw;
+    height: 7vh;
+}
+}
+
+@media screen and (max-width: 768px) {
+.contact-container p {
+    font-size: 1.2rem;
+}
+
+.form-container {
+    max-width: 700px;
+}
+
+.close-btn {
+    font-size: 1.5rem;
+}
+  
+.form-img-2 {
+    width: 65%;
+    height: 50%;
+    top: 50%;
+}
+  
+.form-success {
+    font-size: 1.5rem;
+    margin: 4rem auto 1rem;
+}
+  
+.form {
+    top: 48%;
+    width: 95%;
+}
+  
+.form p {
+    font-size: 1rem;
+}
+  
+.form-inputs {
+    width: 80%;
+    font-size: 1.1rem;
+    margin-top: .7rem;
+}
+
+.form-inputs p {
+    font-size: 0.75rem;
+}
+  
+.social-container span {
+    font-size: 1.35rem;
+}
+
+.social-container a {
+    width: 7vw;
+    height: 7vh;
+}
+}
+
+@media screen and (max-width: 425px) {
+.form-container {
+    max-width: 270px;
+    height: 630px;
+}
+
+.contact-container h3 {
+    font-size: 2rem;
+}
+
+.contact-container p {
+    font-size: 1rem;
+}
+
+.close-btn {
+    display: none;
+}
+
+.form-content-right {
+    border-radius: 10px;
+    width: 270px;
+}
+
+.form-content-left {
+    overflow: hidden;
+    display: none;
+}
+
+.form {
+    top: 50%;
+}
+  
+.form p {
+    font-size: 1rem;
+}
+  
+.form-inputs {
+    width: 80%;
+    font-size: 1rem;
+}
+
+.form-inputs p {
+    font-size: 0.7rem;
+}
+  
+.form-label {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+}
+   
+.form-input-btn {
+    width: 30%;
+    height: 30px;    
+}
+   
+.form-input-login {
+    font-size: .7rem;
+    width: 85%;
+}
+  
+.form-input-login a {
+    font-size: 0.7rem;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem auto;
+    font-weight: 700;
+}
+
+.social-container span {
+    margin: 0 4rem 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.social-container a {
+    font-size: 2rem;
+	border-radius: 10%;
+	display: inline-flex;
+	margin:  .5rem 0;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: 6vh;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+}
