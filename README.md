@@ -1,6 +1,6 @@
 # CakeMe Shop :cupcake: :cake: :pie: :doughnut: :open_file_folder:
 
-Hello github friends! : octocat:
+Hello github friends! :octocat:
 
 I share with you the code of the website of a pastry shop, it consists of several sections such as the services section, contact, products in addition to the registration and log in form, the project was developed using reactjs in addition to: react-icons, react-router-dom and styled-components. The project is beautiful, responsive and at the same time is easy to navigate.
 
