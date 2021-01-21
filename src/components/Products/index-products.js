@@ -16,7 +16,7 @@ function Products({heading, data}) {
                             <ProductInfo>
                                 <ProductTitle>{product.name}</ProductTitle>
                                 <ProductPrice>{product.price}</ProductPrice>
-                                <ProductButton href='Contact'>{product.button}</ProductButton>
+                                <ProductButton href='/contact'>{product.button}</ProductButton>
                             </ProductInfo>
                         </ProductCard>
                     );
