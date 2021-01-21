@@ -14,7 +14,8 @@ Basic knowledge of:
 :star2: Styled Components
 :star2: Responsive web design
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2e079f88-9338-49da-87df-f48d6fadd657/deploy-status)](https://app.netlify.com/sites/cakemeshop/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2e079f88-9338-49da-87df-f48d6fadd657/deploy-status)](https://app.netlify.com/sites/cakemeshop/deploys) :point_right:
+[cakemeshop.netlify.app](https://cakemeshop.netlify.app/)
 
 ### Screenshot :camera_flash:
 ![](https://instagram.fccs3-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/141279479_465698141092981_7176778842541261742_n.jpg?_nc_ht=instagram.fccs3-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=QmvGd5m76ZsAX-r4A9g&tp=1&oh=c9c137e69342f013170dc50407896997&oe=603000E5&ig_cache_key=MjQ5MDYwODI3NzU3NTIzMjgwNA%3D%3D.2)
