@@ -9,7 +9,7 @@ function Hero () {
                     <HeroItems>
                         <HeroH1>Greatest Desserts Ever</HeroH1>
                         <HeroP>Delights for you</HeroP>
-                        <HeroBtn href='Contact'>Place Order</HeroBtn>
+                        <HeroBtn href='/contact'>Place Order</HeroBtn>
                     </HeroItems>
                 </HeroContent>
             </HeroContainer>  
