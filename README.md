@@ -6,6 +6,8 @@ I share with you the code of the website of a pastry shop, it consists of severa
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e008f8ec-8005-4e65-9b43-74a605e4af9b/deploy-status)](https://cakemeshop.netlify.app/)
+
 ### Requirements
 Basic knowledge of:
 :star2: Javascript
@@ -13,8 +15,6 @@ Basic knowledge of:
 :star2: Css
 :star2: Styled Components
 :star2: Responsive web design
-
-:point_right: [cakemeshop.netlify.app](https://cakemeshop.netlify.app/)
 
 ### Screenshot :camera_flash:
 ![](https://instagram.fccs3-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/141279479_465698141092981_7176778842541261742_n.jpg?_nc_ht=instagram.fccs3-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=QmvGd5m76ZsAX-r4A9g&tp=1&oh=c9c137e69342f013170dc50407896997&oe=603000E5&ig_cache_key=MjQ5MDYwODI3NzU3NTIzMjgwNA%3D%3D.2)
